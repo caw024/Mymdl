@@ -3,6 +3,8 @@ from display import *
 from matrix import *
 from draw import *
 
+#look at mdl.[y
+
 def run(filename):
     """
     This function runs an mdl script
@@ -44,6 +46,20 @@ def run(filename):
                          {'red': [0.2, 0.5, 0.5],
                           'green': [0.2, 0.5, 0.5],
                           'blue': [0.2, 0.5, 0.5]}]
+    commands.append('push')
+    commands.append('pop')
+    commands.append('move')
+    commands.append('scale')
+    commands.append('rotate')
+    commands.append('sphere')
+    commands.append('torus')
+    commands.append('box')
+    commands.append('line')
+    commands.append('constants')
+    commands.append('save')
+    commands.append('display')
+    
+
     reflect = '.white'
 
     print symbols
